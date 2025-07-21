@@ -4,5 +4,6 @@ Retrieval-Augmented Generation (RAG) using indexed documents in order to evaluat
 
 The documents used were public Game Design Documents (GDDs). They were found from the following source: [GAMESCRYE Game Design Documents](https://gamescrye.com/resources/game-design-documents/).
 The best GDDs were converted into vector space and subsequent raw form along with indexed locations were obtained. These were used to augment the prompt that is fed to the Large Language Model (LLM).
+> For a different domain, replace with new vectorized (.pkl) and indexed (.index) files of the relevant documents.
 
 > Edit the input text file with the data to be evaluated or manipulated. The prompt text file should be edited with instructions on achieving the required task.
